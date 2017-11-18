@@ -1,0 +1,23 @@
+#note-editor {
+  height: 100%;
+  margin-left: 380px;
+  padding: 10px;
+}
+
+#note-editor input {
+  text-indent: 1em;
+  height: 5%;
+  width: 95%;
+  font-size: 160%;
+  outline: none;
+  border: none;
+  margin-bottom: 5px;
+}
+
+#note-editor textarea {
+  text-indent: 2em;
+  height: 95%;
+  font-size: 150%;
+  border: none;
+  resize: none
+}

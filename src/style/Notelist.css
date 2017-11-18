@@ -1,0 +1,36 @@
+#notes-list {
+  float: left;
+  width: 300px;
+  height: 100%;
+  background-color: #F5F5F5;
+  font-weight: 400;
+}
+
+#list-header {
+  padding: 5px 25px 25px 25px;
+}
+
+#list-header h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 26px;
+  padding-bottom: 8px;
+}
+
+.btn {
+  font-size: 20px;
+}
+
+#notes-list .container {
+  height: calc(100% - 137px);
+  max-height: calc(100% - 137px);
+  overflow: auto;
+  width: 100%;
+  padding: 0;
+}
+
+#notes-list .container .list-group-item {
+  border: 0;
+  border-radius: 0;
+}
